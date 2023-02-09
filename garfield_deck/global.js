@@ -66,7 +66,7 @@ function createComicStrip () {
     for (let j = 0; j<3; j++) {
       let currentPanel = document.createElement('img');
       comicStripArr[i].appendChild(currentPanel);
-      currentPanel.src = `/images/Garfield${valueFromDeck()}.png`;
+      currentPanel.src = `images/Garfield${valueFromDeck()}.png`;
     }
   }
 }
